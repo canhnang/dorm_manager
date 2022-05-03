@@ -1,3 +1,4 @@
+<?php include("../../config/checkSession.php") ?>
 <!doctype html>
 <html class="no-js" lang="en">
 
