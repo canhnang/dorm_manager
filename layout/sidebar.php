@@ -9,7 +9,7 @@
 	<div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header">
-                <a href="/dorm_manager/page/home"><img class="main-logo" src="../../assets/img/logo.png" alt="" /></a>
+                <a href="/page/home"><img class="main-logo" src="../../assets/img/logo.png" alt="" /></a>
                 <strong><a href="index.html"><img src="../../assets/img/logosn.png" alt="" /></a></strong>
             </div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
@@ -21,13 +21,13 @@
 								   <span class="mini-click-non">Ký túc xá</span>
 							</a>
                             <ul class="submenu-angle" aria-expanded="true">
-                                <li><a href="/dorm_manager/page/buildings">
+                                <li><a href="/page/buildings">
                                 	<span class="mini-sub-pro">Dãy nhà</span></a>
                                 </li>
-                                <li><a href="/dorm_manager/page/rooms">
+                                <li><a href="/page/rooms">
                                 	<span class="mini-sub-pro">Phòng</span></a>
                                 </li>
-                                <li><a href="/dorm_manager/page/material-manager">
+                                <li><a href="/page/material-manager">
                                 	<span class="mini-sub-pro">Cơ sở vật chất</span></a>
                                 </li>
                             </ul>
@@ -38,10 +38,10 @@
 								   <span class="mini-click-non">Quản lý</span>
 								</a>
                             <ul class="submenu-angle" aria-expanded="true">
-                                <li><a href="/dorm_manager/page/users">
+                                <li><a href="/page/users">
                                     <span class="mini-sub-pro">Tài khoản</span></a>
                                 </li>
-                                <li><a href="/dorm_manager/page/contracts">
+                                <li><a href="/page/contracts">
                                 	<span class="mini-sub-pro">Hợp đồng</span></a>
                                 </li>
                                 <li><a href="">
@@ -50,12 +50,12 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="/dorm_manager/page/students" aria-expanded="false">
+                            <a href="/page/students" aria-expanded="false">
                             	<span class="glyphicon">&#xe233;</span>
                             	<span class="mini-click-non">Thông tin học sinh</span></a>
                         </li>
                         <li>
-                            <a href="/dorm_manager/page/staffs" aria-expanded="false">
+                            <a href="/page/staffs" aria-expanded="false">
                             	<span class="glyphicon">&#xe139;</span>
                             	<span class="mini-click-non">Thông tin nhân viên</span></a>
                         </li>

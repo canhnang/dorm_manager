@@ -87,7 +87,7 @@
                                                     <form method="POST">
                                                         <?php 
                                                         echo '
-                                                            <a title="Sửa" class="btn btn-info" href="/dorm_manager/page/students/edit_student.php?id='.$value['student_id'].'">
+                                                            <a title="Sửa" class="btn btn-info" href="./edit_student.php?id='.$value['student_id'].'">
                                                                 <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                                                              </a>
                                                             <input value="'.$value['student_id'].'" type="hidden" name="studentID" >

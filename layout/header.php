@@ -360,7 +360,7 @@
                                                         </a>
                                                     <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
                                                         <li><a href="#"><span class="edu-icon edu-home-admin author-log-ic"></span>Thông tin tài khoản</a>
-                                                        <li><a href="/dorm_manager/page/logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Đăng xuất</a>
+                                                        <li><a href="../logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Đăng xuất</a>
                                                         </li>
                                                     </ul>
                                                 </li>
