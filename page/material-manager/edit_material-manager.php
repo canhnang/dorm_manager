@@ -83,7 +83,7 @@
                 
                 $sql_update = 'UPDATE material_manager SET room_information = "'.$roomInformation.'", note = "'.$note.'" WHERE material_id ='.$id;
                 execute($sql_update);
-                echo '<script>location.href = "/dorm_manager/page/material-manager";</script>';
+                echo '<script>location.href = "./";</script>';
                 die();
             }
         }

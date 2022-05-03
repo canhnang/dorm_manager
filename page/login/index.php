@@ -13,12 +13,12 @@ require_once "../../config/connectDB.php";
     		}
     		$num_rows = mysqli_num_rows($query);
     		if ($num_rows==0){
-            	header('Location: /dorm_manager/page/login');
+            	header('Location: ../login');
             	$_SESSION['fail'] = 'error';
         	}else{
             	$_SESSION['USER'] = $id;
             	unset($_SESSION['fail']);
-            	header('Location: /dorm_manager/page/home');
+            	header('Location: ../home');
         	die();
         }
     	}

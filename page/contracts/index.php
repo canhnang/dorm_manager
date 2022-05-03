@@ -73,7 +73,7 @@
                                                     <form method="POST">
                                                         <?php 
                                                         echo '
-                                                            <a title="Sửa" class="btn btn-info" href="/dorm_manager/page/contracts/edit_contract.php?id='.$value['contract_id'].'">
+                                                            <a title="Sửa" class="btn btn-info" href="/./edit_contract.php?id='.$value['contract_id'].'">
                                                                 <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                                                              </a>
                                                             <input value="'.$value['contract_id'].'" type="hidden" name="contractID" >
@@ -95,7 +95,7 @@
                                             if(isset($_POST['form_delete'])){
                                                 $sql = 'DELETE FROM contract where contract_id = "'.$contractID.'"';
                                                 execute($sql);
-                                                echo '<script>location.href = "/dorm_manager/page/contracts";</script>';
+                                                echo '<script>location.href = "./";</script>';
                                                 die();
                                             }
 

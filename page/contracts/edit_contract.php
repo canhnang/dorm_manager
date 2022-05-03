@@ -128,7 +128,7 @@
                 execute($sql_update_contract);
                 execute($sql_update_roomOld);
                 execute($sql_update_roomNew);
-                echo '<script>location.href = "/dorm_manager/page/contracts";</script>';
+                echo '<script>location.href = "./";</script>';
                 die();
 
             }

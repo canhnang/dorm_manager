@@ -116,7 +116,7 @@
                 
                 $sql = 'INSERT INTO user VALUES(NULL, "'.$username.'", "'.$password.'", '.$staff.', '.$role.', '.$isActive.')';
                 execute($sql);
-                echo '<script>location.href = "/dorm_manager/page/users";</script>';
+                echo '<script>location.href = "./";</script>';
                 die();
             }
         }

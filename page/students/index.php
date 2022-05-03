@@ -109,7 +109,7 @@
                                             if(isset($_POST['form_delete'])){
                                                 $sql = 'DELETE FROM students where student_id = "'.$studentID.'"';
                                                 execute($sql);
-                                                echo '<script>location.href = "/dorm_manager/page/students";</script>';
+                                                echo '<script>location.href = "./";</script>';
                                                 die();
                                             }
 

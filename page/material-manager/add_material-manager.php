@@ -90,7 +90,7 @@
                 
                 $sql_insert = 'INSERT INTO material_manager VALUES(NULL, '.$roomId.', "'.$roomInformation.'","'.$note.'")';
                 execute($sql_insert);
-                echo '<script>location.href = "/dorm_manager/page/material-manager";</script>';
+                echo '<script>location.href = "./";</script>';
                 die();
             }
         }

@@ -114,7 +114,7 @@
                 
                 $sql = 'UPDATE staffs SET apartment_id = "'.$cccd.'", staff_name = "'.$name.'", gender = "'.$gender.'", address = "'.$address.'", phone = "'.$phone.'", note = "'.$note.'" WHERE staff_id ='.$id;
                 execute($sql);
-                echo '<script>location.href = "/dorm_manager/page/staffs";</script>';
+                echo '<script>location.href = "./";</script>';
                 die();
             }
         }

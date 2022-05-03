@@ -131,7 +131,7 @@
                 
                 $sql = 'UPDATE dorm_room SET room_name = "'.$name.'", building_id = '.$buildings.', room_type = '.$roomType.', room_capacity = '.$roomCapacity.', room_rate = '.$roomRate.', note = "'.$note.'" WHERE room_id ='.$id;
                 execute($sql);
-                echo '<script>location.href = "/dorm_manager/page/rooms";</script>';
+                echo '<script>location.href = "./";</script>';
                 die();
             }
         }

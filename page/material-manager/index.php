@@ -69,7 +69,7 @@
                                                             <form method="POST">
                                                                 <?php 
                                                                 echo '
-                                                                    <a title="Sửa" class="btn btn-info" href="/dorm_manager/page/material-manager/edit_material-manager.php?id='.$value['material_id'].'">
+                                                                    <a title="Sửa" class="btn btn-info" href="./edit_material-manager.php?id='.$value['material_id'].'">
                                                                         <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                                                                      </a>
                                                                     <input value="'.$value['material_id'].'" type="hidden" name="materialID" >
@@ -93,7 +93,7 @@
                                             if(isset($_POST['form_delete'])){
                                                 $sql_delete = 'DELETE FROM material_manager where material_id = "'.$materialID.'"';
                                                 execute($sql_delete);
-                                                echo '<script>location.href = "/dorm_manager/page/material-manager";</script>';
+                                                echo '<script>location.href = "./";</script>';
                                                 die();
                                             }
 
