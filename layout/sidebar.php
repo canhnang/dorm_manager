@@ -9,7 +9,7 @@
 	<div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header">
-                <a href="/page/home"><img class="main-logo" src="../../assets/img/logo.png" alt="" /></a>
+                <a href="/"><img class="main-logo" src="../../assets/img/logo.png" alt="" /></a>
                 <strong><a href="index.html"><img src="../../assets/img/logosn.png" alt="" /></a></strong>
             </div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
