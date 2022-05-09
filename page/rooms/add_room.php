@@ -113,7 +113,7 @@
                 
                 $sql = 'INSERT INTO dorm_room VALUES(NULL, '.$buildings.', "'.$name.'", '.$roomType.', '.$roomCapacity.', 0, '.$roomRate.', "'.$note.'")';
                 execute($sql);
-                echo '<script>location.href = "./";</script>';
+                echo '<script>location.href = "/dorm_manager/page/rooms";</script>';
                 die();
             }
         }

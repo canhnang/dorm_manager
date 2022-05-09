@@ -121,7 +121,7 @@
                 
                 $sql = 'UPDATE students SET student_code = "'.$mhs.'", student_name = "'.$name.'", birthday = "'.$birthday.'", gender = "'.$gender.'", phone = "'.$phone.'", address = "'.$address.'"WHERE student_id ='.$id;
                 execute($sql);
-                echo '<script>location.href = "./";</script>';
+                echo '<script>location.href = "/dorm_manager/page/students";</script>';
                 die();
             }
         }

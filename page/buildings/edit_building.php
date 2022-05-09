@@ -90,7 +90,7 @@
                 
                 $sql = 'UPDATE buildings SET building_name = "'.$name.'", room_quantity = "'.$roomQuantity.'", note = "'.$note.'" WHERE building_id ='.$id;
                 execute($sql);
-                echo '<script>location.href = "./";</script>';
+                echo '<script>location.href = "/dorm_manager/page/buildings";</script>';
                 die();
             }
         }

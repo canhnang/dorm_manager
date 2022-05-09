@@ -122,7 +122,7 @@
                 
                 $sql_update = 'UPDATE user SET username = "'.$username.'", password = "'.$password.'", role = '.$role.', isActive = "'.$isActive.'" WHERE user_id ='.$id;
                 execute($sql_update);
-                echo '<script>location.href = "./";</script>';
+                echo '<script>location.href = "/dorm_manager/page/users";</script>';
                 die();
             }
         }

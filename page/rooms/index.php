@@ -77,7 +77,7 @@
                                                         <form method="POST" id="formDelete">
                                                             <?php 
                                                             echo '
-                                                                <a title="Sửa" class="btn btn-info" href="./edit_room.php?id='.$value['room_id'].'">
+                                                                <a title="Sửa" class="btn btn-info" href="/dorm_manager/page/rooms/edit_room.php?id='.$value['room_id'].'">
                                                                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                                                                  </a>
                                                                 <input value="'.$value['room_id'].'" type="hidden" name="roomID" >
@@ -99,7 +99,7 @@
                                                 if(isset($_POST['form_delete'])){
                                                     $sql = 'DELETE FROM dorm_room where room_id = "'.$roomID.'"';
                                                     execute($sql);
-                                                    echo '<script>location.href = "./";</script>';
+                                                    echo '<script>location.href = "/dorm_manager/page/rooms";</script>';
                                                     die();
                                                 }
 

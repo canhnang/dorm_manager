@@ -100,7 +100,7 @@
                 
                 $sql = 'INSERT INTO staffs VALUES(NULL, "'.$cccd.'", "'.$name.'", "'.$gender.'", "'.$address.'", "'.$note.'", "'.$phone.'")';
                 execute($sql);
-                echo '<script>location.href = "./";</script>';
+                echo '<script>location.href = "/dorm_manager/page/staffs";</script>';
                 die();
             }
         }

@@ -77,7 +77,7 @@
                 
                 $sql = 'INSERT INTO buildings VALUES(NULL, "'.$name.'", "'.$romQuantity.'", "'.$note.'")';
                 execute($sql);
-                echo '<script>location.href = "./";</script>';
+                echo '<script>location.href = "/dorm_manager/page/buildings";</script>';
                 die();
             }
         }

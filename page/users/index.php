@@ -73,7 +73,7 @@
                                                             <form method="POST">
                                                                 <?php 
                                                                 echo '
-                                                                    <a title="Sửa" class="btn btn-info" href="./edit_user.php?id='.$value['user_id'].'">
+                                                                    <a title="Sửa" class="btn btn-info" href="/dorm_manager/page/users/edit_user.php?id='.$value['user_id'].'">
                                                                         <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                                                                      </a>
                                                                     <input value="'.$value['user_id'].'" type="hidden" name="userID" >
@@ -97,7 +97,7 @@
                                             if(isset($_POST['form_delete'])){
                                                 $sql = 'DELETE FROM user where user_id = "'.$userID.'"';
                                                 execute($sql);
-                                                echo '<script>location.href = "./";</script>';
+                                                echo '<script>location.href = "/dorm_manager/page/users";</script>';
                                                 die();
                                             }
 

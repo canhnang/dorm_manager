@@ -102,7 +102,7 @@
                 
                 $sql = 'INSERT INTO students VALUES(NULL, "'.$mhs.'", "'.$name.'", "'.$gender.'", "'.$birthday.'", "'.$phone.'", "'.$address.'",NULL)';
                 execute($sql);
-                echo '<script>location.href = "./";</script>';
+                echo '<script>location.href = "/dorm_manager/page/students";</script>';
                 die();
             }
         }

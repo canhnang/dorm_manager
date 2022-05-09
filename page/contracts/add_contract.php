@@ -110,7 +110,7 @@
                 execute($sql_update_room);
                 execute($sql_update_student);
                 execute($sql_insert_contract);
-                echo '<script>location.href = "./";</script>';
+                echo '<script>location.href = "/dorm_manager/page/contracts";</script>';
                 die();
 
 
