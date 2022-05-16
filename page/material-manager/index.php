@@ -56,7 +56,7 @@
                                       <tbody>
                                             <?php 
                                                 require_once "../../config/connectDB.php";
-                                                $sql = "SELECT material_manager.note, room_information, room_name, material_id FROM `material_manager` JOIN dorm_room ON material_manager.room_id = dorm_room.room_id";
+                                                $sql = "SELECT material_manager.note, room_information, room_name, id FROM `material_manager` JOIN dorm_room ON material_manager.room_id = dorm_room.room_id";
                                                 $result = executeResult($sql);
                                                 foreach ($result as $key => $value) {
                                                     ?>
@@ -69,10 +69,10 @@
                                                             <form method="POST">
                                                                 <?php 
                                                                 echo '
-                                                                    <a title="Sửa" class="btn btn-info" href="/dorm_manager/page/material-manager/edit_material-manager.php?id='.$value['material_id'].'">
+                                                                    <a title="Sửa" class="btn btn-info" href="/dorm_manager/page/material-manager/edit_material-manager.php?id='.$value['id'].'">
                                                                         <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                                                                      </a>
-                                                                    <input value="'.$value['material_id'].'" type="hidden" name="materialID" >
+                                                                    <input value="'.$value['id'].'" type="hidden" name="materialID" >
                                                                 '
                                                                  ?>
                                                                 

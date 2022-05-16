@@ -39,7 +39,7 @@
                                                         <?php 
                                                         require_once "../../config/connectDB.php";
                                                             $id = $_GET['id'];
-                                                            $sql = "SELECT room_name, room_information, material_manager.note FROM material_manager JOIN dorm_room ON material_manager.room_id = dorm_room.room_id where material_id = $id";
+                                                            $sql = "SELECT room_name, room_information, material_manager.note FROM material_manager JOIN dorm_room ON material_manager.room_id = dorm_room.room_id where id = $id";
                                                             $result = executeResult($sql);
                                                                 foreach ($result as $key => $value) {
 

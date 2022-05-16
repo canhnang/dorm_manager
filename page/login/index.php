@@ -6,10 +6,10 @@ require_once "../../config/connectDB.php";
     	$password = $_POST['password'];
 
     	if(isset($_POST['login'])){
-    		$sql = 'SELECT * FROM user WHERE username = "'.$username.'" AND password = "'.$password.'"';
+    		$sql = 'SELECT * FROM staffs WHERE username = "'.$username.'" AND password = "'.$password.'"';
     		$query = mysqli_query($conn, $sql);
     		foreach ($query as $value) { 
-    			$id = $value['user_id'];
+    			$id = $value['staff_id'];
     		}
     		$num_rows = mysqli_num_rows($query);
     		if ($num_rows==0){

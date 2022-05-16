@@ -43,10 +43,10 @@
                             		<a class="btn btn-primary" style="float: right;" href="./add_staff.php">Thêm nhân viên</a>
                             	</div>
                             	<div class="asset-inner col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 20px;">
-                                	<table>
+                                	<table class="table table-bordered">
                                     <tr>
                                         <th class="col-lg-1">#</th>
-                                        <th class="col-lg-2">CCCD</th>
+                                        <th class="col-lg-2">Tài Khoản</th>
                                         <th class="col-lg-2">Họ Và Tên</th>
                                         <th class="col-lg-1">Giới Tính</th>
                                         <th class="col-lg-3">Thông Tin</th>
@@ -63,7 +63,24 @@
                                                 <td>
                                                     <?php echo $key + 1 ?> 
                                                 </td>
-                                                <td><?php echo $value['apartment_id'] ?></td>
+                                                <td>
+                                                    <table>
+                                                        <tr>
+                                                            <td class="col-lg-4" style="border: none;">Username</td>
+                                                            <td  style="border: none;"><?php echo $value['username'] ?></td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Phân Quyền</td>
+                                                            <td><?php echo ($value['role']==1)?'<span class="label label-success">Admin</span>': '<span class="label label-warning">User</span>' ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Trạng thái </td>
+                                                            <td><?php echo ($value['isActive']==1)?'<span class="label label-primary">Active</span>': '<span class="label label-default">Non-Active</span>' ?></td>
+                                                        </tr>
+                                                    </table>
+                                                    
+                                                </td>
                                                 <td><?php echo $value['staff_name'] ?></td>
                                                 <?php $gt = ($value['gender']==1)?'Nam':'Nữ' ?>
                                                 <td><?php echo $gt  ?></td>
@@ -71,12 +88,16 @@
                                                     <table>
                                                         <tr>
                                                             <td class="col-lg-4" style="border: none;">SĐT</td>
-                                                            <td  style="border: none;"><?php echo $value['phone'] ?></td>
+                                                            <td style="border: none;"><?php echo $value['phone'] ?></td>
+
                                                         </tr>
                                                         <tr>
                                                             <td>Địa Chỉ</td>
                                                             <td><?php echo $value['address'] ?></td>
-
+                                                        </tr>
+                                                        <tr>
+                                                            <td>CCCD</td>
+                                                            <td><?php echo $value['apartment_id'] ?></td>
                                                         </tr>
                                                     </table>
                                                     
