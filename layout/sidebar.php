@@ -21,13 +21,13 @@
 								   <span class="mini-click-non">Ký túc xá</span>
 							</a>
                             <ul class="submenu-angle" aria-expanded="true">
-                                <li><a href="/page/buildings">
+                                <li><a href="/dorm_manager/page/buildings">
                                 	<span class="mini-sub-pro">Dãy nhà</span></a>
                                 </li>
-                                <li><a href="/page/rooms">
+                                <li><a href="/dorm_manager/page/rooms">
                                 	<span class="mini-sub-pro">Phòng</span></a>
                                 </li>
-                                <li><a href="/page/material-manager">
+                                <li><a href="/dorm_manager/page/material-manager">
                                 	<span class="mini-sub-pro">Cơ sở vật chất</span></a>
                                 </li>
                             </ul>
@@ -38,24 +38,21 @@
 								   <span class="mini-click-non">Quản lý</span>
 								</a>
                             <ul class="submenu-angle" aria-expanded="true">
-                                <li><a href="/page/users">
-                                    <span class="mini-sub-pro">Tài khoản</span></a>
-                                </li>
-                                <li><a href="/page/contracts">
+                                <li><a href="/dorm_manager/page/contracts">
                                 	<span class="mini-sub-pro">Hợp đồng</span></a>
                                 </li>
-                                <li><a href="">
+                                <li><a href="/dorm_manager/page/bill">
                                 	<span class="mini-sub-pro">Hóa đơn</span></a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="/page/students" aria-expanded="false">
+                            <a href="/dorm_manager/page/students" aria-expanded="false">
                             	<span class="glyphicon">&#xe233;</span>
                             	<span class="mini-click-non">Thông tin học sinh</span></a>
                         </li>
                         <li>
-                            <a href="/page/staffs" aria-expanded="false">
+                            <a href="/dorm_manager/page/staffs" aria-expanded="false">
                             	<span class="glyphicon">&#xe139;</span>
                             	<span class="mini-click-non">Thông tin nhân viên</span></a>
                         </li>
